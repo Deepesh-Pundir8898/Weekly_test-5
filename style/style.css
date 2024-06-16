@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Header css */
+h6 ,.deliver{
+    font-size: 12px;
+}
+h5{
+    font-size: 15px;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #0f1111;
+    color: white;
+    align-items: center;
+}
+header span,h5,h6{
+    color:white;
+    transition: color 0.2s ease;
+}
+header span:hover {
+    color: rgba(255,255,255, 0.6);
+
+}
+header .logo{
+    width: 8%;
+    height: 4rem;
+
+}
+header .logo img{
+    width: 100%;
+    margin-top: 2.5px;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.location .loc-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.search-bar select{
+    width: 10%;
+    height: 100%;
+    border: none;
+    background: #f3f3f3;
+    padding-left: 0.5rem;
+}
+.search-bar input{
+    width: 85%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding-left: 0.5rem;
+}
+.search-bar .search-icon{
+    background-color:#febd68;
+    font-size: 1.5rem;
+    color: black;
+    height: 100%;
+    width: 8%;
+    text-align: center;
+    align-content: center;
+    
+}
+.cart{
+    display: flex;
+    align-items: end;
+    .cart_icon{
+        font-size: 2.5rem;
+    }
+}
+
+/* Menu css */
+
+.menu{
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222f3d;
+    align-items: center;
+    font-size: 14px;
+
+}
+.menu .left-menu{
+    width: 60%;
+    display: flex;
+    margin-left: 3.5%;
+}
+.menu .left-menu ul{
+    display: flex;
+    gap:1rem;
+    li{
+        list-style: none;
+    }
+}
+.menu .right-menu{
+    margin-right: 6%;
+}
+.left-menu li a,.right-menu a{
+    text-decoration: none;
+    transition: color 0.1s linear;
+    color: white;
+
+}
+.hamburger_menu{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hamburger_menu span{
+   
+    width: 30%;
+    background-color: white;
+    padding: 1.5px;
+    margin: 0.1rem;
+}
+.left-menu li a:hover , .right-menu a:hover{
+    color: rgba(255,255,255, 0.6);
+}
+/* banner css  */
+.banner{
+    width: 100%;
+    height: 400px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* banner css end */
+
+/* shopping section start */
+
+.shop-section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3
+}
+.shoping-categories{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    gap:2.5rem;
+}
+.shopping-category{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    box-shadow: 0px 0px 5px white;
+    background-color: white;
+}
+.shopping-category-content{
+    transition: all 0.5s linear;
+
+}
+.shopping-category-content:hover{
+    transform: scale(1.1);
+    a{
+        color: rgb(255, 81, 0);
+        text-decoration: underline;
+    }
+}
+.shopping-category h2{
+    font-size: 17px;
+}
+.shopping-category a{
+    text-decoration: none;
+}
+.category-image{
+    width: 100%;
+    margin: 1rem 0px;
+}
+.category-image img{
+    width: 100%;
+    height: 280px;
+}
+/* shopping section end */
+
+/* back to top */
+.back-to-top{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #37475a;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  height: 3.5rem;
+  text-decoration: none;
+}
+/* back to top  end*/
+/* footer start */
+    footer{
+        background-color: #232f3e;
+        color:white;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1rem ;
+        font-size: 14px;
+    }
+    .features{
+        display: flex;
+        flex-direction: column;
+    }
+    footer a{
+        text-decoration: none;
+        color: white;
+        line-height: 1.7;
+        transition: color 0.2s ease;
+    }
+    footer a:hover{
+        color: rgba(255,255,255, 0.6);
+    }
+    footer h3{
+        margin-bottom: 0.5rem;
+    }
+    
+/* footer end */
+
