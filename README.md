@@ -45,4 +45,4 @@ This project recreates a hero page similar to Amazon's using HTML and CSS. It in
 ![Screenshot](screenshots/Screenshot_4.png)
 
 ## Video Explanation
-[Video Link](https://your-video-link.com)
+[Video Link](weekly-test-5.mkv)
